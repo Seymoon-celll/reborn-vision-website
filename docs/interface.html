@@ -1,0 +1,76 @@
+<!-- © 2026 Reborn Vision — All rights reserved. Unauthorized copying, modification or distribution is strictly prohibited. https://reborn-vision.com -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interface & Personnalisation — Reborn Vision</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --gold:#d4af37; --gold-light:#f4d03f; --gold-dark:#b8941f; --bg:#080808; --bg2:#0f0f0f; --border:rgba(212,175,55,0.18); --text:#e8e8e8; --text-muted:#888; --radius:12px; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; }
+    header { position:sticky; top:0; z-index:100; background:rgba(8,8,8,0.9); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); padding:0 2rem; height:64px; display:flex; align-items:center; justify-content:space-between; }
+    .logo { font-family:'Cinzel',serif; font-size:1.1rem; font-weight:700; background:linear-gradient(135deg,var(--gold-dark),var(--gold-light)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; text-decoration:none; }
+    .header-right { display:flex; align-items:center; gap:1rem; }
+    #lang-switcher { position:relative; }
+    .lang-btn { background:rgba(212,175,55,0.08); border:1px solid var(--border); color:var(--text); padding:0.4rem 0.75rem; border-radius:8px; font-size:0.8rem; cursor:pointer; }
+    .lang-dropdown { display:none; position:absolute; top:calc(100% + 8px); right:0; background:rgba(15,15,15,0.98); backdrop-filter:blur(12px); border:1px solid var(--border); border-radius:var(--radius); list-style:none; min-width:160px; z-index:200; max-height:280px; overflow-y:auto; }
+    .lang-dropdown.open { display:block; }
+    .lang-dropdown li { padding:0.5rem 1rem; cursor:pointer; font-size:0.85rem; }
+    .lang-dropdown li:hover { background:rgba(212,175,55,0.1); }
+    .back-link { color:var(--text-muted); text-decoration:none; font-size:0.875rem; }
+    .back-link:hover { color:var(--gold); }
+    main { max-width:760px; margin:0 auto; padding:4rem 2rem; }
+    .page-title { font-family:'Cinzel',serif; font-size:1.8rem; font-weight:700; background:linear-gradient(135deg,var(--gold-dark),var(--gold-light)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:2rem; }
+    .doc-section { margin-bottom:2.5rem; }
+    .doc-section h2 { font-size:1.1rem; font-weight:600; color:var(--gold); margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--border); }
+    .themes-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:0.75rem; }
+    .theme-chip { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:0.75rem 1rem; font-size:0.85rem; font-weight:500; }
+    .shortcut-table { width:100%; border-collapse:collapse; }
+    .shortcut-table tr { border-bottom:1px solid var(--border); }
+    .shortcut-table td { padding:0.75rem 0; font-size:0.875rem; }
+    .shortcut-table td:first-child { color:var(--text-muted); width:50%; }
+    .key { background:rgba(212,175,55,0.1); border:1px solid rgba(212,175,55,0.3); color:var(--gold); padding:0.2rem 0.5rem; border-radius:4px; font-family:monospace; font-size:0.82rem; }
+    footer { border-top:1px solid var(--border); padding:2rem; text-align:center; color:var(--text-muted); font-size:0.78rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../" class="logo">REBORN VISION</a>
+    <div class="header-right">
+      <div id="lang-switcher"></div>
+      <a href="index.html" class="back-link">← Docs</a>
+    </div>
+  </header>
+  <main>
+    <h1 class="page-title" data-i18n="interface_page.title">Interface & Personnalisation</h1>
+
+    <div class="doc-section">
+      <h2 data-i18n="interface_page.themes_title">6 thèmes visuels</h2>
+      <div class="themes-grid">
+        <div class="theme-chip" style="border-color:rgba(212,175,55,0.4);color:#d4af37;" data-i18n="interface_page.theme1">MMO Gold</div>
+        <div class="theme-chip" style="border-color:rgba(0,150,255,0.4);color:#0096ff;" data-i18n="interface_page.theme2">Cyber Blue</div>
+        <div class="theme-chip" style="border-color:rgba(180,0,255,0.4);color:#b400ff;" data-i18n="interface_page.theme3">Neon Purple</div>
+        <div class="theme-chip" style="border-color:rgba(255,60,0,0.4);color:#ff3c00;" data-i18n="interface_page.theme4">Fire Red</div>
+        <div class="theme-chip" style="border-color:rgba(255,255,255,0.1);color:#aaa;" data-i18n="interface_page.theme5">Dark</div>
+        <div class="theme-chip" style="border-color:rgba(255,255,255,0.3);color:#fff;" data-i18n="interface_page.theme6">White</div>
+      </div>
+    </div>
+
+    <div class="doc-section">
+      <h2 data-i18n="interface_page.shortcuts_title">Raccourcis clavier</h2>
+      <table class="shortcut-table">
+        <tr>
+          <td><span class="key" data-i18n="interface_page.shortcut1_key">Ctrl+E</span></td>
+          <td data-i18n="interface_page.shortcut1_desc">Activer le sélecteur de zone</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <footer>© 2026 Reborn Vision · <a href="mailto:seymoon.cell@gmail.com" style="color:var(--gold);text-decoration:none;">seymoon.cell@gmail.com</a></footer>
+  <script type="module" src="../langs/index.js"></script>
+</body>
+</html>

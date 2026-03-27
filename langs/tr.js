@@ -1,48 +1,166 @@
 // © 2026 Reborn Vision — All rights reserved. Unauthorized copying, modification or distribution is strictly prohibited. https://reborn-vision.com
 export default {
-  nav: { docs: 'Belgeler', manage: 'Aboneliği yönet', install: 'Ücretsiz yükle' },
+  nav: {
+    docsFull: '📚 Belgeler',
+    docsShort: '📚',
+    manageFull: 'Aboneliği yönet',
+    manageShort: 'Yönet'
+  },
   hero: {
-    badge: 'Gerçek zamanlı OCR çevirisi', title: 'REBORN VISION',
-    tagline: 'Ekrandaki her metni çevirin. Gerçek zamanlı.',
-    sub: 'Bir bölge seçin, Ctrl+E\'ye basın — çeviri anında görünür.',
-    cta_primary: 'Ücretsiz yükle', cta_secondary: 'Belgelere bak',
-    trust1: 'Günde 5 çeviri ücretsiz', trust2: 'Veri depolanmaz', trust3: '15 OCR dili',
-    store_name: 'Chrome Web Store', store_sub: 'Ücretsiz uzantı', store_rating: '★★★★★'
+    eyebrow: 'Gerçek zamanlı OCR çevirisi',
+    subtitle: 'Ekrandaki her metni çevirin. Gerçek zamanlı.',
+    description: 'Bir bölge seçin, Ctrl+E\'ye basın — çeviri anında görünür.',
+    ctaPrimary: 'Ücretsiz yükle',
+    ctaSecondary: 'Belgelere bak',
+    trust1: 'Günde 5 çeviri ücretsiz',
+    trust2: 'Veri depolanmaz',
+    trust3: '15 OCR dili',
+    trust4: '7 günlük ücretsiz deneme'
+  },
+  store: {
+    install: 'Yükle',
+    available: 'Ücretsiz mevcut · Google tarafından doğrulanmış resmi uzantı'
   },
   features: {
-    title: 'İhtiyacınız olan her şey', sub: 'Akıcılık için tasarlanmış bir uzantı.',
-    f1_title: 'Evrensel OCR', f1_desc: 'Her bölgeden metin okur: altyazılar, oyun arayüzleri, PDF\'ler, görseller.', f1_badge: 'Tüm diller',
-    f2_title: 'Anlık çeviri', f2_desc: 'Çeviri balonu doğrudan ekranda görünür.', f2_badge: 'Sürtünmesiz',
-    f3_title: 'İzleme Modu', f3_desc: 'Metin değiştiğinde otomatik olarak yeniden çevirir.', f3_badge: 'Premium',
-    f4_title: 'Çoklu bölge', f4_desc: 'Eş zamanlı birden fazla bölge, her biri kendi balonuyla.', f4_badge: 'Premium',
-    f5_title: 'Özelleştirilebilir arayüz', f5_desc: 'Kurulumunuza uygun 6 görsel tema.', f5_badge: 'Ücretsiz',
-    f6_title: '15 arayüz dili', f6_desc: 'Bir kez ayarlayın, her yerde kullanın.', f6_badge: 'Ücretsiz'
+    tag: 'Özellikler & Yetenekler',
+    titleBefore: 'İhtiyacınız olan ',
+    titleEm: 'her şey',
+    subtitle: 'Akıcılık için tasarlanmış bir uzantı.',
+    card1: {
+      badge: 'Tüm diller',
+      title: 'Evrensel OCR',
+      description: 'Her bölgeden metin okur: altyazılar, oyun arayüzleri, PDF\'ler, görseller.'
+    },
+    card2: {
+      badge: 'Sürtünmesiz',
+      title: 'Anlık çeviri',
+      description: 'Çeviri balonu doğrudan ekranda görünür.'
+    },
+    card3: {
+      badge: 'Premium',
+      title: 'İzleme Modu',
+      description: 'Metin değiştiğinde otomatik olarak yeniden çevirir.'
+    },
+    card4: {
+      badge: 'Premium',
+      title: 'Çoklu bölge',
+      description: 'Eş zamanlı birden fazla bölge, her biri kendi balonuyla.'
+    },
+    card5: {
+      badge: 'Ücretsiz',
+      title: 'Özelleştirilebilir arayüz',
+      description: 'Kurulumunuza uygun 6 görsel tema.'
+    },
+    card6: {
+      badge: 'Ücretsiz',
+      title: '15 arayüz dili',
+      description: 'Bir kez ayarlayın, her yerde kullanın.'
+    }
   },
   security: {
-    title: 'Gizlilik için tasarlandı', sub: 'Ekran görüntüleriniz asla depolanmaz.',
-    s1_title: 'Güvenli kimlik doğrulama', s1_desc: 'Google OAuth2. Kısa ömürlü JWT token\'ları.',
-    s2_title: 'Stripe ödemeleri', s2_desc: 'Kart numaranızı asla görmeyiz.',
-    s3_title: 'Sıfır izleme', s3_desc: 'Tarama geçmişi toplanmaz. Veri satılmaz.',
-    s4_title: 'Görseller asla depolanmaz', s4_desc: 'Gerçek zamanlı işlenir ve hemen silinir.'
+    tag: 'Gizlilik',
+    titleBefore: 'Gizlilik için ',
+    titleEm: 'tasarlandı',
+    description: 'Reborn Vision, büyük küresel platformlarla aynı güvenlik standartlarını kullanır. Kimlik bilgileriniz JWT şifrelemesiyle korunur, ödemeleriniz Stripe üzerinden güvence altına alınır ve ekran görüntüleriniz asla depolanmaz. Gerçek zamanlı işlenir, anında silinir.',
+    card1Title: 'Güvenli kimlik doğrulama',
+    card1Text: 'Google OAuth2. Kısa ömürlü JWT token\'ları.',
+    card2Title: 'Stripe ödemeleri',
+    card2Text: 'Kart numaranızı asla görmeyiz.',
+    card3Title: 'Sıfır izleme',
+    card3Text: 'Tarama geçmişi toplanmaz. Veri satılmaz.',
+    card4Title: 'Görseller asla depolanmaz',
+    card4Text: 'Gerçek zamanlı işlenir ve hemen silinir.'
   },
   pricing: {
-    title: 'Planınızı seçin', sub: 'Ücretsiz başlayın. Hazır olduğunuzda premium\'a geçin.',
-    popular: 'Popüler', per_month: '/ay', per_year: '/yıl', one_time: 'tek seferlik ödeme',
-    trial: '7 günlük ücretsiz deneme', cta_free: 'Ücretsiz başla', cta_paid: 'Denemeyi başlat', cta_lifetime: 'Ömür boyu al',
-    voyageur: { rank: 'Gezgin', price: '€0', f1: 'Günde 5 çeviri', f2: '1 aktif bölge', f3: '15 OCR dili', f4: '6 görsel tema', f5: '15 dil arayüzü' },
-    aventurier: { rank: 'Maceracı', price: '€2,99', f1: 'Sınırsız çeviri', f2: 'Sınırsız bölge', f3: 'Otomatik İzleme Modu', f4: 'Öncelikli destek', f5: 'Erken erişim' },
-    champion: { rank: 'Şampiyon', price: '€24,99', save: '%30 tasarruf', f1: 'Sınırsız çeviri', f2: 'Sınırsız bölge', f3: 'Otomatik İzleme Modu', f4: 'Öncelikli destek', f5: 'Erken erişim' },
-    legende: { rank: 'Efsane', price: '€99,99', f1: 'Ömür boyu sınırsız çeviri', f2: 'Sınırsız bölge', f3: 'Otomatik İzleme Modu', f4: 'Tüm gelecek özellikler', f5: 'Ömür boyu öncelikli destek' }
+    tag: 'Rütbenizi Seçin',
+    titleBefore: 'Planınızı ',
+    titleEm: 'seçin',
+    subtitle: 'Ücretsiz başlayın. Hazır olduğunuzda premium\'a geçin.',
+    voyageur: {
+      rank: 'Gezgin',
+      plan: 'Ücretsiz',
+      period: 'sonsuza kadar',
+      feat1: 'Günde 5 çeviri',
+      feat2: '1 aktif bölge',
+      feat3: '15 OCR dili',
+      feat4: '6 görsel tema',
+      guarantee: '🔒 Sonsuza kadar ücretsiz',
+      download: 'Chrome\'a ekle'
+    },
+    aventurier: {
+      rank: 'Maceracı',
+      plan: 'Aylık',
+      period: 'aylık',
+      feat1: 'Sınırsız çeviri',
+      feat2: 'Sınırsız bölge',
+      feat3: 'Otomatik İzleme Modu',
+      feat4: 'Öncelikli destek',
+      btn: 'Ücretsiz Dene',
+      guarantee: '🎁 7 gün ücretsiz · Taahhüt yok',
+      download: 'Chrome\'a ekle'
+    },
+    champion: {
+      badge: '⭐ Popüler -17%',
+      rank: 'Şampiyon',
+      plan: 'Yıllık',
+      period: 'yılda · €3,33/ay',
+      feat1: 'Sınırsız çeviri',
+      feat2: 'Sınırsız bölge',
+      feat3: 'Otomatik İzleme Modu',
+      feat4: 'Öncelikli destek',
+      feat5: 'Erken erişim',
+      btn: 'Ücretsiz Dene',
+      guarantee: '🎁 7 gün ücretsiz · Taahhüt yok',
+      download: 'Chrome\'a ekle'
+    },
+    legende: {
+      badge: '⚡ Ömür Boyu Teklif',
+      rank: 'Efsane',
+      plan: 'Ömür Boyu',
+      period: 'tek seferlik ödeme · bir daha ödeme',
+      feat1: 'Ömür boyu sınırsız çeviri',
+      feat2: 'Sınırsız bölge',
+      feat3: 'Otomatik İzleme Modu',
+      feat4: 'Tüm gelecek özellikler',
+      feat5: 'Ömür boyu öncelikli destek',
+      btn: 'Satın Al',
+      guarantee: '🔒 Tek seferlik ödeme · Ömür boyu erişim garantili',
+      download: 'Chrome\'a ekle'
+    }
+  },
+  stats: {
+    label1: 'OCR Dilleri',
+    label2: 'Görsel Temalar',
+    label3: 'Depolanan Veri',
+    label4: 'Desteklenen Siteler'
+  },
+  trust: {
+    badge1: 'Güvenli Stripe ödemesi',
+    badge2: 'İstediğiniz zaman iptal',
+    badge3: '7 günlük ücretsiz deneme',
+    badge4: 'Hızlı destek'
   },
   faq: {
-    title: 'Sıkça sorulan sorular',
-    q1: 'Vision tüm sitelerde çalışır mı?', a1: 'Evet. Metin görünürse Vision onu yakalayıp çevirebilir.',
-    q2: 'OCR nasıl çalışır?', a2: 'Ctrl+E ile bir bölge seçersiniz. Vision güvenli sunucularımıza gönderir. Bir saniyeden az sürede yanıt.',
-    q3: 'Aboneliğimi iptal edebilir miyim?', a3: 'Evet, Stripe müşteri portalından istediğiniz zaman.',
-    q4: 'Ömür boyu plan gelecek özellikleri içeriyor mu?', a4: 'Evet, Efsane planı mevcut ve gelecekteki her şeyi kapsar.',
-    q5: 'Verilerim güvende mi?', a5: 'Ekran görüntüleri asla depolanmaz. Sadece e-posta ve durum Firebase\'de.'
+    titleBefore: 'Sıkça sorulan ',
+    titleEm: 'sorular',
+    subtitle: 'Başlamadan önce bilmeniz gereken her şey.',
+    q1: 'Vision tüm sitelerde çalışır mı?',
+    a1: 'Evet. Metin görünürse Vision onu yakalayıp çevirebilir.',
+    q2: 'OCR nasıl çalışır?',
+    a2: 'Ctrl+E ile bir bölge seçersiniz. Vision güvenli sunucularımıza gönderir. Bir saniyeden az sürede yanıt.',
+    q3: 'Aboneliğimi iptal edebilir miyim?',
+    a3: 'Evet, Stripe müşteri portalından istediğiniz zaman.',
+    q4: 'Ömür boyu plan gelecek özellikleri içeriyor mu?',
+    a4: 'Evet, Efsane planı mevcut ve gelecekteki her şeyi kapsar.',
+    q5: 'Verilerim güvende mi?',
+    a5: 'Ekran görüntüleri asla depolanmaz. Sadece e-posta ve durum Firebase\'de.'
   },
-  stats: { s1: '15 dil', s1_sub: 'Desteklenen OCR dilleri', s2: '6 tema', s2_sub: 'Görsel temalar', s3: 'Gerçek zamanlı', s3_sub: 'Anlık çeviri', s4: '0 depolama', s4_sub: 'Görseller asla saklanmaz' },
-  trust: { t1: 'Güvenli Stripe ödemesi', t2: 'İstediğiniz zaman iptal', t3: '7 günlük ücretsiz deneme', t4: 'Hızlı destek' },
-  footer: { tagline: 'Chrome için gerçek zamanlı OCR çevirisi.', docs: 'Belgeler', legal: 'Yasal bilgiler', privacy: 'Gizlilik', contact: 'İletişim', rights: '© 2026 Reborn Vision. Tüm hakları saklıdır.' }
+  footer: {
+    docs: 'Belgeler',
+    privacy: 'Gizlilik',
+    terms: 'Kullanım Koşulları',
+    support: 'Destek',
+    contact: 'İletişim',
+    copyright: '© 2026 Reborn Vision. Tüm hakları saklıdır.\nSeymoon tarafından geliştirildi'
+  }
 };

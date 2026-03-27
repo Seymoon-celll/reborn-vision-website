@@ -1,109 +1,149 @@
 // © 2026 Reborn Vision — All rights reserved. Unauthorized copying, modification or distribution is strictly prohibited. https://reborn-vision.com
 export default {
   nav: {
-    docs: 'Documentation',
-    manage: 'Manage subscription',
-    install: 'Install for free'
+    docsFull: '📚 Docs',
+    docsShort: '📚',
+    manageFull: 'Manage subscription',
+    manageShort: 'Manage'
   },
   hero: {
-    badge: 'Real-time OCR translation',
-    title: 'REBORN VISION',
-    tagline: 'Translate any text on screen. In real time.',
-    sub: 'Select a zone, press Ctrl+E — the translation appears instantly. Works on all websites, all games, all images.',
-    cta_primary: 'Install for free',
-    cta_secondary: 'View documentation',
+    eyebrow: 'Real-time OCR translation',
+    subtitle: 'Translate any text on screen. In real time.',
+    description: 'Select a zone, press Ctrl+E — the translation appears instantly. Works on all websites, all games, all images.',
+    ctaPrimary: 'Install for free',
+    ctaSecondary: 'View documentation',
     trust1: '5 translations/day free',
     trust2: 'No data stored',
     trust3: '15 OCR languages',
-    store_name: 'Chrome Web Store',
-    store_sub: 'Free extension',
-    store_rating: '★★★★★'
+    trust4: '7-day free trial'
+  },
+  store: {
+    install: 'Install',
+    available: 'Available for free · Official extension verified by Google'
   },
   features: {
-    title: 'Everything you need',
-    sub: 'An extension built for fluidity — translating should never interrupt your experience.',
-    f1_title: 'Universal OCR',
-    f1_desc: 'Captures and reads text from any screen zone: subtitles, game interfaces, PDFs, images. If it\'s displayed, Vision can read it.',
-    f1_badge: 'All languages',
-    f2_title: 'Instant translation',
-    f2_desc: 'The translation bubble appears directly on your screen, in the right place, without leaving the page or opening a tab.',
-    f2_badge: 'Frictionless',
-    f3_title: 'Watch Mode',
-    f3_desc: 'Activate watch mode on a zone — Vision re-translates automatically when the text changes. Perfect for live subtitles.',
-    f3_badge: 'Premium',
-    f4_title: 'Multi-zone',
-    f4_desc: 'Define multiple capture zones simultaneously on the same page. Each zone has its own translation bubble.',
-    f4_badge: 'Premium',
-    f5_title: 'Customizable interface',
-    f5_desc: '6 visual themes (MMO Gold, Cyber Blue, Neon Purple, Fire Red, Dark, White). Choose the one that fits your setup.',
-    f5_badge: 'Free',
-    f6_title: '15 interface languages',
-    f6_desc: 'Vision\'s interface is available in 15 languages. Set it once, use it everywhere.',
-    f6_badge: 'Free'
+    tag: 'Features & Capabilities',
+    titleBefore: 'Everything ',
+    titleEm: 'you need',
+    subtitle: 'An extension built for fluidity — translating should never interrupt your experience.',
+    card1: {
+      badge: 'All languages',
+      title: 'Universal OCR',
+      description: 'Captures and reads text from any screen zone: subtitles, game interfaces, PDFs, images. If it\'s displayed, Vision can read it.'
+    },
+    card2: {
+      badge: 'Frictionless',
+      title: 'Instant translation',
+      description: 'The translation bubble appears directly on your screen, in the right place, without leaving the page or opening a tab.'
+    },
+    card3: {
+      badge: 'Premium',
+      title: 'Watch Mode',
+      description: 'Activate watch mode on a zone — Vision re-translates automatically when the text changes. Perfect for live subtitles.'
+    },
+    card4: {
+      badge: 'Premium',
+      title: 'Multi-zone',
+      description: 'Define multiple capture zones simultaneously on the same page. Each zone has its own translation bubble.'
+    },
+    card5: {
+      badge: 'Free',
+      title: 'Customizable interface',
+      description: '6 visual themes (MMO Gold, Cyber Blue, Neon Purple, Fire Red, Dark, White). Choose the one that fits your setup.'
+    },
+    card6: {
+      badge: 'Free',
+      title: '15 interface languages',
+      description: 'Vision\'s interface is available in 15 languages. Set it once, use it everywhere.'
+    }
   },
   security: {
-    title: 'Built for privacy',
-    sub: 'Your screenshots are never stored. Images are processed in real time and immediately deleted.',
-    s1_title: 'Secure authentication',
-    s1_desc: 'Sign in via Google OAuth2. Short-lived JWT tokens, no passwords stored.',
-    s2_title: 'Stripe payments',
-    s2_desc: 'Transactions 100% handled by Stripe. We never see your card number.',
-    s3_title: 'Zero tracking',
-    s3_desc: 'No browsing history collected. No personal data sold or shared.',
-    s4_title: 'Images never stored',
-    s4_desc: 'Zone captures are processed in real time on our secure servers and immediately deleted after processing.'
+    tag: 'Privacy',
+    titleBefore: 'Built for ',
+    titleEm: 'privacy',
+    description: 'Reborn Vision uses the same security standards as major global platforms. Your credentials are protected by JWT encryption, your payments secured via Stripe, and your screenshots are never stored. Processed in real time, deleted immediately.',
+    card1Title: 'Secure authentication',
+    card1Text: 'Sign in via Google OAuth2. Short-lived JWT tokens, no passwords stored.',
+    card2Title: 'Stripe payments',
+    card2Text: 'Transactions 100% handled by Stripe. We never see your card number.',
+    card3Title: 'Zero tracking',
+    card3Text: 'No browsing history collected. No personal data sold or shared.',
+    card4Title: 'Images never stored',
+    card4Text: 'Zone captures are processed in real time on our secure servers and immediately deleted after processing.'
   },
   pricing: {
-    title: 'Choose your plan',
-    sub: 'Start free. Go premium when you\'re ready.',
-    popular: 'Popular',
-    per_month: '/month',
-    per_year: '/year',
-    one_time: 'one-time payment',
-    trial: '7-day free trial',
-    cta_free: 'Start for free',
-    cta_paid: 'Start trial',
-    cta_lifetime: 'Get lifetime',
+    tag: 'Choose your Rank',
+    titleBefore: 'Choose your ',
+    titleEm: 'plan',
+    subtitle: 'Start free. Go premium when you\'re ready.',
     voyageur: {
       rank: 'Voyager',
-      price: '€0',
-      f1: '5 translations per day',
-      f2: '1 active zone',
-      f3: '15 OCR languages',
-      f4: '6 visual themes',
-      f5: '15-language interface'
+      plan: 'Free',
+      period: 'forever',
+      feat1: '5 translations per day',
+      feat2: '1 active zone',
+      feat3: '15 OCR languages',
+      feat4: '6 visual themes',
+      guarantee: '🔒 Free forever',
+      download: 'Add to Chrome'
     },
     aventurier: {
       rank: 'Adventurer',
-      price: '€2.99',
-      f1: 'Unlimited translations',
-      f2: 'Unlimited zones',
-      f3: 'Automatic Watch Mode',
-      f4: 'Priority support',
-      f5: 'Early access to new features'
+      plan: 'Monthly',
+      period: 'per month',
+      feat1: 'Unlimited translations',
+      feat2: 'Unlimited zones',
+      feat3: 'Automatic Watch Mode',
+      feat4: 'Priority support',
+      btn: 'Start Free Trial',
+      guarantee: '🎁 7 days free · No commitment',
+      download: 'Add to Chrome'
     },
     champion: {
+      badge: '⭐ Popular -17%',
       rank: 'Champion',
-      price: '€24.99',
-      save: 'Save 30%',
-      f1: 'Unlimited translations',
-      f2: 'Unlimited zones',
-      f3: 'Automatic Watch Mode',
-      f4: 'Priority support',
-      f5: 'Early access to new features'
+      plan: 'Yearly',
+      period: 'per year · €3.33/month',
+      feat1: 'Unlimited translations',
+      feat2: 'Unlimited zones',
+      feat3: 'Automatic Watch Mode',
+      feat4: 'Priority support',
+      feat5: 'Early access to new features',
+      btn: 'Start Free Trial',
+      guarantee: '🎁 7 days free · No commitment',
+      download: 'Add to Chrome'
     },
     legende: {
+      badge: '⚡ Lifetime Deal',
       rank: 'Legend',
-      price: '€99.99',
-      f1: 'Unlimited lifetime translations',
-      f2: 'Unlimited zones',
-      f3: 'Automatic Watch Mode',
-      f4: 'All future features',
-      f5: 'Lifetime priority support'
+      plan: 'Lifetime',
+      period: 'one-time payment · never pay again',
+      feat1: 'Unlimited lifetime translations',
+      feat2: 'Unlimited zones',
+      feat3: 'Automatic Watch Mode',
+      feat4: 'All future features',
+      feat5: 'Lifetime priority support',
+      btn: 'Buy Now',
+      guarantee: '🔒 One-time payment · Guaranteed lifetime access',
+      download: 'Add to Chrome'
     }
   },
+  stats: {
+    label1: 'OCR Languages',
+    label2: 'Visual Themes',
+    label3: 'Data Stored',
+    label4: 'Sites Supported'
+  },
+  trust: {
+    badge1: 'Secure Stripe payment',
+    badge2: 'Cancel anytime',
+    badge3: '7-day free trial',
+    badge4: 'Responsive support'
+  },
   faq: {
-    title: 'Frequently asked questions',
+    titleBefore: 'Frequently asked ',
+    titleEm: 'questions',
+    subtitle: 'Everything you need to know before getting started.',
     q1: 'Does Vision work on all websites?',
     a1: 'Yes. Vision injects itself on all websites. If text is visible on screen, Vision can capture and translate it — even in browser games, PDFs, or images.',
     q2: 'How does OCR work?',
@@ -115,29 +155,13 @@ export default {
     q5: 'Is my data secure?',
     a5: 'Screenshots are processed in real time and never stored. Only your email and subscription status are kept in Firebase. No browsing data is collected.'
   },
-  stats: {
-    s1: '15 languages',
-    s1_sub: 'Supported OCR languages',
-    s2: '6 themes',
-    s2_sub: 'Visual themes',
-    s3: 'Real time',
-    s3_sub: 'Instant translation',
-    s4: '0 storage',
-    s4_sub: 'Images never kept'
-  },
-  trust: {
-    t1: 'Secure Stripe payment',
-    t2: 'Cancel anytime',
-    t3: '7-day free trial',
-    t4: 'Responsive support'
-  },
   footer: {
-    tagline: 'Real-time OCR translation for Chrome.',
     docs: 'Documentation',
-    legal: 'Legal notice',
     privacy: 'Privacy',
+    terms: 'Terms of Use',
+    support: 'Support',
     contact: 'Contact',
-    rights: '© 2026 Reborn Vision. All rights reserved.'
+    copyright: '© 2026 Reborn Vision. All rights reserved.\nDeveloped by Seymoon'
   },
   docs: {
     home_title: 'Documentation',

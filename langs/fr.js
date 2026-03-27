@@ -1,109 +1,149 @@
 // © 2026 Reborn Vision — All rights reserved. Unauthorized copying, modification or distribution is strictly prohibited. https://reborn-vision.com
 export default {
   nav: {
-    docs: 'Documentation',
-    manage: 'Gérer mon abonnement',
-    install: 'Installer gratuitement'
+    docsFull: '📚 Docs',
+    docsShort: '📚',
+    manageFull: 'Gérer mon abonnement',
+    manageShort: 'Gérer'
   },
   hero: {
-    badge: 'Traduction OCR en temps réel',
-    title: 'REBORN VISION',
-    tagline: 'Traduisez n\'importe quel texte à l\'écran. En temps réel.',
-    sub: 'Sélectionnez une zone, appuyez sur Ctrl+E — la traduction apparaît instantanément. Fonctionne sur tous les sites, tous les jeux, toutes les images.',
-    cta_primary: 'Installer gratuitement',
-    cta_secondary: 'Voir la documentation',
+    eyebrow: 'Traduction OCR en temps réel',
+    subtitle: 'Traduisez n\'importe quel texte à l\'écran. En temps réel.',
+    description: 'Sélectionnez une zone, appuyez sur Ctrl+E — la traduction apparaît instantanément. Fonctionne sur tous les sites, tous les jeux, toutes les images.',
+    ctaPrimary: 'Installer gratuitement',
+    ctaSecondary: 'Voir la documentation',
     trust1: '5 traductions/jour gratuites',
     trust2: 'Aucune donnée stockée',
     trust3: '15 langues OCR',
-    store_name: 'Chrome Web Store',
-    store_sub: 'Extension gratuite',
-    store_rating: '★★★★★'
+    trust4: 'Essai 7 jours gratuit'
+  },
+  store: {
+    install: 'Installer',
+    available: 'Disponible gratuitement · Extension officielle vérifiée par Google'
   },
   features: {
-    title: 'Tout ce dont vous avez besoin',
-    sub: 'Une extension pensée pour la fluidité — traduire ne doit pas interrompre votre expérience.',
-    f1_title: 'OCR universel',
-    f1_desc: 'Capture et lit le texte de n\'importe quelle zone d\'écran : sous-titres, interfaces de jeu, PDF, images. Si c\'est affiché, Vision peut le lire.',
-    f1_badge: 'Toutes langues',
-    f2_title: 'Traduction instantanée',
-    f2_desc: 'La bulle de traduction apparaît directement sur votre écran, au bon endroit, sans quitter la page ni ouvrir d\'onglet.',
-    f2_badge: 'Sans friction',
-    f3_title: 'Watch Mode',
-    f3_desc: 'Activez le mode surveillance sur une zone — Vision re-traduit automatiquement dès que le texte change. Parfait pour les sous-titres live.',
-    f3_badge: 'Premium',
-    f4_title: 'Multi-zones',
-    f4_desc: 'Définissez plusieurs zones de capture simultanées sur la même page. Chaque zone a sa propre bulle de traduction.',
-    f4_badge: 'Premium',
-    f5_title: 'Interface personnalisable',
-    f5_desc: '6 thèmes visuels (MMO Gold, Cyber Blue, Neon Purple, Fire Red, Dark, White). Choisissez celui qui correspond à votre setup.',
-    f5_badge: 'Gratuit',
-    f6_title: '15 langues d\'interface',
-    f6_desc: 'L\'interface de Vision est disponible en 15 langues. Configurez une fois, utilisez partout.',
-    f6_badge: 'Gratuit'
+    tag: 'Capacités & Fonctions',
+    titleBefore: 'Tout ce dont vous ',
+    titleEm: 'avez besoin',
+    subtitle: 'Une extension pensée pour la fluidité — traduire ne doit pas interrompre votre expérience.',
+    card1: {
+      badge: 'Toutes langues',
+      title: 'OCR universel',
+      description: 'Capture et lit le texte de n\'importe quelle zone d\'écran : sous-titres, interfaces de jeu, PDF, images. Si c\'est affiché, Vision peut le lire.'
+    },
+    card2: {
+      badge: 'Sans friction',
+      title: 'Traduction instantanée',
+      description: 'La bulle de traduction apparaît directement sur votre écran, au bon endroit, sans quitter la page ni ouvrir d\'onglet.'
+    },
+    card3: {
+      badge: 'Premium',
+      title: 'Watch Mode',
+      description: 'Activez le mode surveillance sur une zone — Vision re-traduit automatiquement dès que le texte change. Parfait pour les sous-titres live.'
+    },
+    card4: {
+      badge: 'Premium',
+      title: 'Multi-zones',
+      description: 'Définissez plusieurs zones de capture simultanées sur la même page. Chaque zone a sa propre bulle de traduction.'
+    },
+    card5: {
+      badge: 'Gratuit',
+      title: 'Interface personnalisable',
+      description: '6 thèmes visuels (MMO Gold, Cyber Blue, Neon Purple, Fire Red, Dark, White). Choisissez celui qui correspond à votre setup.'
+    },
+    card6: {
+      badge: 'Gratuit',
+      title: '15 langues d\'interface',
+      description: 'L\'interface de Vision est disponible en 15 langues. Configurez une fois, utilisez partout.'
+    }
   },
   security: {
-    title: 'Conçu pour la confidentialité',
-    sub: 'Vos captures ne sont jamais stockées. Les images sont traitées en temps réel et immédiatement supprimées.',
-    s1_title: 'Authentification sécurisée',
-    s1_desc: 'Connexion via Google OAuth2. Jetons JWT avec expiration courte, aucun mot de passe stocké.',
-    s2_title: 'Paiements Stripe',
-    s2_desc: 'Transactions 100% gérées par Stripe. Nous ne voyons jamais votre numéro de carte.',
-    s3_title: 'Zéro tracking',
-    s3_desc: 'Aucun historique de navigation collecté. Aucune donnée personnelle vendue ou partagée.',
-    s4_title: 'Images jamais stockées',
-    s4_desc: 'Les captures de zones sont traitées en temps réel sur nos serveurs sécurisés et immédiatement supprimées après traitement.'
+    tag: 'Confidentialité',
+    titleBefore: 'Conçu pour la ',
+    titleEm: 'confidentialité',
+    description: 'Reborn Vision utilise les mêmes standards de sécurité que les grandes plateformes mondiales. Vos identifiants sont protégés par chiffrement JWT, vos paiements sécurisés via Stripe, et vos captures d\'écran ne sont jamais stockées. Traitées en temps réel, supprimées immédiatement.',
+    card1Title: 'Authentification sécurisée',
+    card1Text: 'Connexion via Google OAuth2. Jetons JWT avec expiration courte, aucun mot de passe stocké.',
+    card2Title: 'Paiements Stripe',
+    card2Text: 'Transactions 100% gérées par Stripe. Nous ne voyons jamais votre numéro de carte.',
+    card3Title: 'Zéro tracking',
+    card3Text: 'Aucun historique de navigation collecté. Aucune donnée personnelle vendue ou partagée.',
+    card4Title: 'Images jamais stockées',
+    card4Text: 'Les captures de zones sont traitées en temps réel sur nos serveurs sécurisés et immédiatement supprimées après traitement.'
   },
   pricing: {
-    title: 'Choisissez votre plan',
-    sub: 'Commencez gratuitement. Passez premium quand vous êtes prêt.',
-    popular: 'Populaire',
-    per_month: '/mois',
-    per_year: '/an',
-    one_time: 'paiement unique',
-    trial: 'Essai gratuit 7 jours',
-    cta_free: 'Commencer gratuitement',
-    cta_paid: 'Commencer l\'essai',
-    cta_lifetime: 'Obtenir à vie',
+    tag: 'Choisissez votre Rang',
+    titleBefore: 'Choisissez votre ',
+    titleEm: 'plan',
+    subtitle: 'Commencez gratuitement. Passez premium quand vous êtes prêt.',
     voyageur: {
       rank: 'Voyageur',
-      price: '0€',
-      f1: '5 traductions par jour',
-      f2: '1 zone active',
-      f3: '15 langues OCR',
-      f4: '6 thèmes visuels',
-      f5: 'Interface 15 langues'
+      plan: 'Gratuit',
+      period: 'à jamais',
+      feat1: '5 traductions par jour',
+      feat2: '1 zone active',
+      feat3: '15 langues OCR',
+      feat4: '6 thèmes visuels',
+      guarantee: '🔒 Gratuit pour toujours',
+      download: 'Ajouter à Chrome'
     },
     aventurier: {
       rank: 'Aventurier',
-      price: '2,99€',
-      f1: 'Traductions illimitées',
-      f2: 'Zones illimitées',
-      f3: 'Watch Mode automatique',
-      f4: 'Support prioritaire',
-      f5: 'Accès anticipé nouveautés'
+      plan: 'Mensuel',
+      period: 'par mois',
+      feat1: 'Traductions illimitées',
+      feat2: 'Zones illimitées',
+      feat3: 'Watch Mode automatique',
+      feat4: 'Support prioritaire',
+      btn: 'Essayer Gratuitement',
+      guarantee: '🎁 7 jours gratuits · Sans engagement',
+      download: 'Ajouter à Chrome'
     },
     champion: {
+      badge: '⭐ Populaire -17%',
       rank: 'Champion',
-      price: '24,99€',
-      save: 'Économisez 30%',
-      f1: 'Traductions illimitées',
-      f2: 'Zones illimitées',
-      f3: 'Watch Mode automatique',
-      f4: 'Support prioritaire',
-      f5: 'Accès anticipé nouveautés'
+      plan: 'Annuel',
+      period: 'par an · soit 3,33€/mois',
+      feat1: 'Traductions illimitées',
+      feat2: 'Zones illimitées',
+      feat3: 'Watch Mode automatique',
+      feat4: 'Support prioritaire',
+      feat5: 'Accès anticipé nouveautés',
+      btn: 'Essayer Gratuitement',
+      guarantee: '🎁 7 jours gratuits · Sans engagement',
+      download: 'Ajouter à Chrome'
     },
     legende: {
+      badge: '⚡ Offre À Vie',
       rank: 'Légende',
-      price: '99,99€',
-      f1: 'Traductions illimitées à vie',
-      f2: 'Zones illimitées',
-      f3: 'Watch Mode automatique',
-      f4: 'Toutes les futures fonctionnalités',
-      f5: 'Support prioritaire à vie'
+      plan: 'À Vie',
+      period: 'paiement unique · plus jamais rien',
+      feat1: 'Traductions illimitées à vie',
+      feat2: 'Zones illimitées',
+      feat3: 'Watch Mode automatique',
+      feat4: 'Toutes les futures fonctionnalités',
+      feat5: 'Support prioritaire à vie',
+      btn: 'Acheter',
+      guarantee: '🔒 Paiement unique · Accès garanti à vie',
+      download: 'Ajouter à Chrome'
     }
   },
+  stats: {
+    label1: 'Langues OCR',
+    label2: 'Thèmes visuels',
+    label3: 'Données stockées',
+    label4: 'Sites supportés'
+  },
+  trust: {
+    badge1: 'Paiement sécurisé Stripe',
+    badge2: 'Annulation à tout moment',
+    badge3: 'Essai gratuit 7 jours',
+    badge4: 'Support réactif'
+  },
   faq: {
-    title: 'Questions fréquentes',
+    titleBefore: 'Questions ',
+    titleEm: 'fréquentes',
+    subtitle: 'Tout ce que vous devez savoir avant de commencer.',
     q1: 'Est-ce que Vision fonctionne sur tous les sites ?',
     a1: 'Oui. Vision s\'injecte sur tous les sites web. Si du texte est visible à l\'écran, Vision peut le capturer et le traduire — même dans les jeux via navigateur, les PDF, ou les images.',
     q2: 'Comment fonctionne l\'OCR ?',
@@ -115,29 +155,13 @@ export default {
     q5: 'Mes données sont-elles sécurisées ?',
     a5: 'Les captures d\'écran sont traitées en temps réel et jamais stockées. Seuls votre email et statut d\'abonnement sont conservés dans Firebase. Aucune donnée de navigation n\'est collectée.'
   },
-  stats: {
-    s1: '15 langues',
-    s1_sub: 'Langues OCR supportées',
-    s2: '6 thèmes',
-    s2_sub: 'Thèmes visuels',
-    s3: 'Temps réel',
-    s3_sub: 'Traduction instantanée',
-    s4: '0 stockage',
-    s4_sub: 'Images jamais conservées'
-  },
-  trust: {
-    t1: 'Paiement sécurisé Stripe',
-    t2: 'Annulation à tout moment',
-    t3: 'Essai gratuit 7 jours',
-    t4: 'Support réactif'
-  },
   footer: {
-    tagline: 'Traduction OCR en temps réel pour Chrome.',
     docs: 'Documentation',
-    legal: 'Mentions légales',
     privacy: 'Confidentialité',
+    terms: 'Conditions d\'Utilisation',
+    support: 'Support',
     contact: 'Contact',
-    rights: '© 2026 Reborn Vision. Tous droits réservés.'
+    copyright: '© 2026 Reborn Vision. Tous droits réservés.\nDéveloppé par Seymoon'
   },
   docs: {
     home_title: 'Documentation',

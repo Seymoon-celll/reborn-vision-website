@@ -1,7 +1,7 @@
 // © 2026 Reborn Vision — All rights reserved. Unauthorized copying, modification or distribution is strictly prohibited. https://reborn-vision.com
 export default {
   nav: {
-    docsFull: '📚 Docs',
+    docsFull: '📚 Documentazione',
     docsShort: '📚',
     manageFull: 'Gestisci abbonamento',
     manageShort: 'Gestisci'

@@ -162,7 +162,7 @@ export default {
     support: 'Поддержка',
     contact: 'Контакт',
     copyright: '© 2026 Reborn Vision. Все права защищены.\nРазработано Seymoon'
-  }
+  },
   docs: {
     home_title: 'Documentation',
     home_sub: 'Everything you need to know to use Reborn Vision.',

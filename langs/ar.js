@@ -162,7 +162,7 @@ export default {
     support: 'الدعم',
     contact: 'اتصل بنا',
     copyright: '© 2026 Reborn Vision. جميع الحقوق محفوظة.\nطُوِّر بواسطة Seymoon'
-  }
+  },
   docs: {
     home_title: 'Documentation',
     home_sub: 'Everything you need to know to use Reborn Vision.',

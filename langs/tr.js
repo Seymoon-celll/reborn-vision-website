@@ -162,7 +162,7 @@ export default {
     support: 'Destek',
     contact: 'İletişim',
     copyright: '© 2026 Reborn Vision. Tüm hakları saklıdır.\nSeymoon tarafından geliştirildi'
-  }
+  },
   docs: {
     home_title: 'Documentation',
     home_sub: 'Everything you need to know to use Reborn Vision.',

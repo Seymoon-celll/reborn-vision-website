@@ -162,7 +162,7 @@ export default {
     support: 'Suporta',
     contact: 'Makipag-ugnayan',
     copyright: '© 2026 Reborn Vision. Lahat ng karapatan ay nakalaan.\nBinuo ng Seymoon'
-  }
+  },
   docs: {
     home_title: 'Documentation',
     home_sub: 'Everything you need to know to use Reborn Vision.',
